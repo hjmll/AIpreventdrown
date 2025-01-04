@@ -1,4 +1,4 @@
-package com.hmall.gateway;
+package com.aidp.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
