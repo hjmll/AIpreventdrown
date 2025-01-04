@@ -11,6 +11,7 @@
         <module>ai-apis</module>
         <module>ai-gateway</module>
         <module>ai-domain</module>
+        <module>ai-login</module>
     </modules>
 
     <parent>
