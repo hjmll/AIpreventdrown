@@ -6,8 +6,7 @@
     <parent>
         <groupId>com.aidp</groupId>
         <artifactId>AIpreventdrown</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+        <version>${aipd.version}</version>
     </parent>
 
     <artifactId>ai-common</artifactId>

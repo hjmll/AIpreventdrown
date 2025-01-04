@@ -4,10 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aidp</groupId>
     <artifactId>AIpreventdrown</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${aipd.version}</version>
     <packaging>pom</packaging>
-    <name>AIpreventdrown</name>
-    <description>AIpreventdrown</description>
     <modules>
         <module>ai-common</module>
         <module>ai-apis</module>
@@ -15,11 +13,13 @@
         <module>ai-domain</module>
     </modules>
     <properties>
+        <aipd.version>1.0.0-SNAPSHOT</aipd.version>
         <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.6.13</spring-boot.version>
         <spring-cloud-alibaba.version>2021.0.5.0</spring-cloud-alibaba.version>
+        <spring-cloud.version>2021.0.3</spring-cloud.version>
         <mybityplus.version>3.4.3</mybityplus.version>
     </properties>
     <dependencies>
@@ -42,7 +42,7 @@
     <dependencyManagement>
         <!--依赖管理-->
         <dependencies>
-            <dependency>
+           <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
             </dependency>
