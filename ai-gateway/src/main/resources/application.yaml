@@ -3,6 +3,6 @@ server:
 spring:
   cloud:
     nacos:
-      server-addr: 192.168.2.128:8848
+      server-addr: 8.217.8.255:8848
   application:
     name: ai-gateway
