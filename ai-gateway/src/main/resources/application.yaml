@@ -1,2 +1,8 @@
 server:
   port: 8080
+spring:
+  cloud:
+    nacos:
+      server-addr: 192.168.2.128:8848
+  application:
+    name: ai-gateway
